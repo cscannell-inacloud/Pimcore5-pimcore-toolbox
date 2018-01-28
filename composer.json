@@ -1,7 +1,7 @@
 {
   "name": "dachcom-digital/pimcore-toolbox",
   "type": "pimcore-plugin",
-  "license": "Simple BSD",
+  "license": "GPL-3.0-or-later",
   "description": "Kickstarter for Pimcore Projects.",
   "keywords": [
     "pimcore",
