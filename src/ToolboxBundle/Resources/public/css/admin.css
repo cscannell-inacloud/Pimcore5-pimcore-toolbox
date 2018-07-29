@@ -148,6 +148,17 @@
 
 /**
 
+    Toolbox Scheduled Block
+
+**/
+.toolbox-scheduled-block {
+    background: rgba(242, 242, 242, 0.5);
+    border: 1px dashed #d6d6d6;
+    padding: 10px;
+}
+
+/**
+
     Toolbox Container
 
 **/
