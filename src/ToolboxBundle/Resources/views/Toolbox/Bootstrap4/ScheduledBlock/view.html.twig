@@ -1,0 +1,3 @@
+{% for i in pimcore_iterate_block(pimcore_scheduledblock('scheduledblock')) %}
+    {{ pimcore_areablock('sbContent', toolbox_areablock_config('scheduledBlockContent')) }}
+{% endfor %}

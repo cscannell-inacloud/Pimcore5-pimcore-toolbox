@@ -19,6 +19,7 @@ final class ToolboxConfig
         'linkList',
         'parallaxContainer',
         'parallaxContainerSection',
+        'scheduledBlock',
         'separator',
         'slideColumns',
         'snippet',

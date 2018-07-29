@@ -1,0 +1,17 @@
+services:
+    ToolboxBundle\Document\Areabrick\ScheduledBlock\ScheduledBlock:
+        parent: ToolboxBundle\Document\Areabrick\AbstractAreabrick
+        tags:
+            - { name: pimcore.area.brick, id: scheduledBlock }
+toolbox:
+    areas:
+        scheduledBlock:
+            config_elements:
+                type:
+                    type: select
+                    title: 'Type'
+                    config:
+                        store:
+                            panel-default: 'Default'
+                            panel-danger: 'Dangers'
+                        default: panel-default
